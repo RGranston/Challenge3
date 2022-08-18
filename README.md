@@ -34,11 +34,11 @@ spread_return_early = pos_spread_early / bitstamp['Close'].loc["2018-01-10"]
 profitable_trades_early = spread_return_early[spread_return_early > .01]
 ```
 ## Results
-![early](.Images/early.PNG)
+![early](/Images/early.PNG)
 
-![middle](.Images/middle.PNG)
+![middle](/Images/middle.PNG)
 
-![late](.Images/late.PNG)
+![late](/Images/late.PNG)
 
 ## Conclusion
 As time goes on the two markets become more efficent, as a result of that our profits shrink.  In January we had the highest number of winning trades and per trade we were also making the most amount of profit.  In febuary our trades drop from 14 to 8 and our average profit drops from $155.47 to 101.89.  Come March our profits have tried up and we don't have any winning trades.  The markets weren't perfectly effient by March, there were still trades available but not below our 1% metric.
